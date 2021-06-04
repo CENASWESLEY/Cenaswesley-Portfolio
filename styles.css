@@ -99,6 +99,7 @@ header{
     font-weight: bolder;
     font-size: 50px;
     width: 100%;
+    background-color: #000000;
 
     
 }
@@ -1695,6 +1696,21 @@ footer{
     transform: scale(1.1);
 }
 
+.imgbx:hover{
+
+    cursor: pointer;
+}
+.imgbx:active{
+
+    position: fixed;
+    top:50px ;
+
+    height : calc(100% - 120px);
+    width: calc(100% - 400px);
+    z-index: 2000;
+    
+
+ }
 
 
 
@@ -1730,7 +1746,8 @@ footer{
 
 
 
-@media(min-width:0px) and (max-width:1680px) {
+
+@media(min-width:0px) and (max-width:1024px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
@@ -3221,33 +3238,23 @@ button a:hover{
 
 
 
-/*footer*/
 
+/*footer*/
 footer{
 
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    margin-left: 600px;
-
- 
-
+    box-shadow: 0px 2px 12px rgb(255, 255, 255);
 }
-
 footer p{
 
     font-family: calibri;
-  
- 
-    
 }
 
 footer p:nth-child(1){
-     margin: 0px 0px 30px 0px;
+     margin: 50px 0px 30px 0px;
     font-size:30px ;
     font-weight: bolder;
     color: rgb(0, 0, 0);
-
+    line-height: 10px;
 }
 
 footer p:nth-child(2){
@@ -3260,14 +3267,12 @@ footer p:nth-child(2){
 
 footer{
     height: 300px;
-    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     position: relative;
 }
-
 .social-icons a{
 
     width: 40px;
@@ -3337,25 +3342,25 @@ footer{
     transform: scale(1.1);
    
 }
+.social a:hover{
+    transform: scale(1.1);
+}
 
 
+.imgbx:hover{
 
+    cursor: pointer;
+}
+.imgbx:active{
 
+    position: fixed;
+    top:50px ;
 
+    height : calc(100% - 120px);
+    width: calc(100% - 400px);
+    z-index: 2000;
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
