@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
-    
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -81,7 +81,7 @@ header{
     text-decoration: none;
 
     margin: 20px;
-    padding: 10px;
+  
     width: 100%;
    
    
@@ -91,6 +91,62 @@ header{
     transform: scale(5);
   
 }
+.dropbtn {
+
+    background-color: #ffffff;
+    color: rgb(0, 132, 255);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight:bold ;
+    margin: 50px 20px 20px;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    justify-content: center;
+   
+   
+  }
+
+  .dropdown-content a {
+    color: black;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+ 
+  }
+
+.dropdown-content a:hover {  
+      
+    background-color: #000000;
+
+
+
+}
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+ 
+  }
+  
+
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
 .nav{
     text-align: center;
     display: flexbox;
@@ -317,34 +373,41 @@ header{
      
  }
 
+.H{
 
- .Ps{
+    color: #ff00bf;
+}
+ #Ps{
 
     color: #00C8FF;
  }
- .Ai{
+#Ai{
 
     color: #FF7C00;
  }
 
- .Ae{
+#Ae{
 
     color: #B54EFF;
  }
 
-.XD{
+#XD{
     color: #FF21BF;
 
 }
 
-.Blen{
+#Blen{
     color: #a15100;
 
+}
+.pro{
+
+    color: rgb(68, 0, 255);
 }
 
 .Cer{
 
-    color: #030303;
+    color: #dfa300;
 }
 #DG0{
     color: #00C8FF;
@@ -1854,6 +1917,58 @@ header{
 .menu ul li a:hover{
    color: rgb(179, 179, 179);
 }
+
+.dropbtn {
+
+    background-color: #ffffff;
+    color: rgb(0, 132, 255);
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight:bold ;
+    margin: 50px 20px 20px;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    justify-content: center;
+   
+   
+  }
+
+  .dropdown-content a {
+    color: black;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {   background-color: #000000;}
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+ 
+  }
+  
+
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+
+
 .nav{
     text-align: center;
     display: flexbox;
@@ -1904,33 +2019,41 @@ header{
 
 }
 
-.Ps{
+.H{
+
+    color: #ff00bf;
+}
+ #Ps{
 
     color: #00C8FF;
  }
- .Ai{
+#Ai{
 
     color: #FF7C00;
  }
 
- .Ae{
+#Ae{
 
     color: #B54EFF;
  }
 
-.XD{
+#XD{
     color: #FF21BF;
 
 }
 
-.Blen{
+#Blen{
     color: #a15100;
 
+}
+.pro{
+
+    color: rgb(68, 0, 255);
 }
 
 .Cer{
 
-    color: #030303;
+    color: #dfa300;
 }
 
 
