@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/png" href="Cenas1.png">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script >
+        function toggleSidebar(ref) {
+      ref.classList.toggle('active');
+      document.getElementById('sidebar').classList.toggle('active');
+    }</script>
 </head>
 <body>
     
@@ -21,25 +26,34 @@
             <a href="index2.html">
                 <img class = "logo " src="picture/Demo1.png" alt="">
             </a>
+        <div id="sidebar">
             <ul>
-                <li><a class="H" href="index2.html"> Home </a></li>
-
+                <li><a id="H" href="index2.html"> Home </a></li>
+    
                 <div class="dropdown">
-                    <button class="dropbtn">Design</button>
+                    <button class="dropbtn"><a href="index.html">Design</a></button>
                     <div class="dropdown-content">
-                        <a id="Ps" href="#linkps"> Ps </a>
-                        <a id="Ai"href="#linkai"> Ai</a>
-                        <a id="Ae"href="#linkae"> Ae </a>
-                       <a id="XD"href="#linkxd"> Xd</a>
-                       <a id="Blen"href="#linkben"> Blender </a>
+                        <a id="Ps" href="index.html#linkps" target="_blank"> Ps </a>
+                        <a id="Ai"href="index.html#linkai" target="_blank"> Ai</a>
+                        <a id="Ae"href="index.html#linkae" target="_blank"> Ae </a>
+                       <a id="XD"href="index.html#linkxd" target="_blank"> Xd</a>
+                       <a id="Blen"href="index.html#linkben" target="_blank"> Blender </a>
                     </div>
                   </div>
         
-                <li><a class="pro" href="#linkpro">   Programming </a></li>
-                <li><a class="Cer"href="#linkcer"> Certificate</a></li>
+                <li><a id="pro" href="#linkpro">   Programming </a></li>
+                <li><a  id="Cer"href="index.html#linkcer"> Certificate</a></li>
             </ul>
- 
+    
         </div>
+          <div id="toggle-btn" onclick="toggleSidebar(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+      
+        </div>
+    
+    </div>
     </header>
     
     
