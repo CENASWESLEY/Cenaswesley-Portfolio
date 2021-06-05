@@ -14,7 +14,10 @@
 
 
 }
+body{
 
+    width:100%;
+}
 
 header{
     box-shadow: 2px 2px 20px rgb(112, 112, 112);
@@ -378,7 +381,7 @@ h2{
 .three-3{
     width: 500px;
     height: 500px;
-    
+ 
     border-radius: 20%;
     box-shadow: 2px 0px 10px rgb(255, 255, 255);
     margin: 150px 50px 0px;
@@ -1296,7 +1299,7 @@ footer{
         align-items: center;
         padding-top: 55px;
         height: 200px;
-        width: 100%;
+        width: 2000px;
     }
     .Headalign2{
     
@@ -1325,7 +1328,7 @@ footer{
     .Header2{
     
      
-        width: 100%;
+        width: 2000px;
         height: 1000px;
         
         background-image: url(ae/cenas-gif.gif);
@@ -1431,7 +1434,7 @@ footer{
         display: flex;
     
         background-repeat: no-repeat;
-        width: 100%;
+        width: 2000px;
         background-size: contain;
         height: 800px;
         background-color: rgb(0, 0, 0);
@@ -1491,7 +1494,7 @@ footer{
     
     }
     .three-text{
-        font-size: 10px;
+     
         margin: 0px 50px 0px;
         text-align: justify;
     }
@@ -1551,6 +1554,7 @@ footer{
         justify-content: center;
         align-items: center;
         margin: 0px 0px 100px;
+        width: 2000px;
        
         
        
@@ -2070,6 +2074,7 @@ footer{
     footer{
     
         box-shadow: 0px 2px 12px rgb(0, 0, 0);
+        width: 2000px;
     }
     footer p{
     
