@@ -1357,21 +1357,7 @@ footer{
     transform: scale(1.1);
 }
 
-.code-img:hover{
 
-    cursor: pointer;
-}
-.code-img:active{
-
-    position: fixed;
-    top:50px ;
-
-    height : calc(200% );
-    width: calc(150%);
-    z-index: 2000;
-    
-
- }
 
 
 
