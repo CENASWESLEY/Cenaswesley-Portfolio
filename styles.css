@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -119,30 +119,33 @@ header{
 
 }
 
-.dropbtn {
 
-    background-color: #ffffff;
+  .dropbtn {
+  
+   background: none;
     color: rgb(0, 132, 255);
     font-size: 20px;
     border: none;
     cursor: pointer;
     font-weight:bold ;
-    margin: 50px 20px 20px;
+    margin:50px 20px 20px;
+ 
   }
+  
   .dropbtn a{
   
 
-    text-decoration: none;
-    color: rgb(0, 132, 255);
-  }
+     text-decoration: none;
+     color: rgb(0, 132, 255);
+   }
   
-
+  
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-
+  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -151,33 +154,41 @@ header{
    
    
   }
-
+  
   .dropdown-content a {
     color: black;
-    margin: 50px;
+    margin: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-decoration: none;
     display: block;
- 
-  }
-
-.dropdown-content a:hover {  
-      
-    background-color: #000000;
-
-
-
-}
   
-
+  }
+  
+  
+  .dropdown-content a:hover {   
+      background-color: #000000;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     transform: translateX(-30px);
+    width: 100%;
+  
+  }
+  
+  
   .dropdown:hover .dropdown-content {
     display: block;
- 
+    text-align: center;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+    
+  
   }
   
-
+  
   .dropdown:hover .dropbtn {
     background-color: #ffffff;
   }
@@ -384,7 +395,7 @@ header{
 	outline:none;
 	font-size:14px;
 	font-weight:bold;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin-left: 80px;
 }
 
@@ -395,7 +406,12 @@ header{
 
     text-decoration: none;
 }
+.contact-me button a:hover{
+	
+  
 
+  
+}
 
 
 .gif{
@@ -407,6 +423,88 @@ header{
      
  }
 
+ #DG0{
+
+    color: #00C8FF;
+
+ }
+
+ #GD{
+
+    color: #00C8FF;
+ }
+ #DG2{
+
+    color: #00C8FF;
+ }
+ #DG3{
+
+    color: #FF7C00;
+ }
+ #DG5{
+
+    color: #FF7C00;
+ }
+ #DG6{
+
+    color: #FF7C00;
+ }
+ 
+ #DG7{
+
+    color: #B54EFF;
+ }
+ #DG8{
+    color: #B54EFF;
+
+ }
+ #DG10{
+
+    color: #FF21BF;
+ }
+ #DG11{
+
+    color: #FF21BF;
+ }
+ #DG12{
+
+    color: #FF21BF;
+ }
+ 
+ #DG13{
+
+    color: #a15100;
+ }
+ #DG13{
+
+    color: #a15100;
+ }
+ #DG14{
+
+    color: #a15100;
+ }
+ 
+ #DG15{
+
+    color: #a15100;
+ }
+ #DG16{
+    color: #00C8FF;
+ }
+ #DG18{
+    color: #FF7C00;
+ }
+ #web{
+
+    color: #FF7C00;
+ }
+ #headboxae1{
+
+    color: #B54EFF;
+
+
+
+ }
  #H{
   
     color: #ff00bf;
@@ -557,7 +655,88 @@ header{
 
 button a:hover{
 
-    color: rgb(0, 153, 255);
+    color: rgb(168, 168, 168);
+    background: none;
+}
+
+.Header2{
+
+ 
+    width: 100%;
+    height: 1000px;
+    
+    background-image: url(digital/Ray.png);
+    background-size: cover;
+ 
+
+
+  
+ /*   mix-blend-mode: multiply; */
+   
+
+    
+   
+    
+}
+.Header2 .text{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(253, 253, 253);
+    font-size: 100px;
+    background: none;
+  
+    padding: 350px  0px 0px 100px;
+
+    
+    
+  
+    
+}
+
+
+
+
+.textDesign{
+  
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    width: 200px;
+    height: 20px;
+    display: block;
+    
+    text-decoration: none;
+    list-style: none;
+}
+.textDesign p{
+    
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #000000;
+    text-decoration: none;
+    list-style: none;
+ 
+    
+}
+
+.textDesign a {
+    
+ 
+    text-decoration: none;
+    list-style: none;
+    
+
+    
+    
+}
+.textDesign p:hover {
+    
+ 
+    color: rgb(0, 132, 255);
+   
+
+    
     
 }
 
@@ -1730,6 +1909,178 @@ footer{
 
 
 
+ {}
+ @media(min-width : 1367px) and (max-width:1500px) {
+ 
+     .menu{
+ 
+         background-color: rgb(255, 255, 255);
+         justify-content: space-between;
+         display: block;
+       
+         
+        
+     
+     }
+     .menu a img{
+         width: 10%;
+         height: 10%;
+     
+         
+     }
+     .menu ul{
+         float: right;
+         display: flex;
+         list-style: none;
+         font-family: 'Roboto', sans-serif;
+         font-size: 20px ;
+         font-weight:bold ;
+         transform: translateY(-100px);
+         margin-right: 50px;
+        
+        
+     
+         
+         
+     }
+     .menu ul li {
+         text-decoration: none;
+         height: 10px;
+         margin: 20px 5px 15px ;
+         padding: 30px 0px 50px;
+     
+         
+         
+         
+         
+         
+     
+     
+     }
+     .menu ul li a{
+         text-decoration: none;
+         color: rgb(0, 0, 0);
+         margin: 20px;
+         padding: 10px;
+         width: 100%;
+     
+         
+         
+       
+     
+        
+        
+     }
+     .menu ul li a:hover{
+         color: #858585;
+         transform: scale(5);
+       
+     
+     }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {}
+ @media(min-width : 1501px) and (max-width:2000px) {
+ 
+     .menu{
+ 
+         background-color: rgb(255, 255, 255);
+         justify-content: space-between;
+         display: block;
+       
+         
+        
+     
+     }
+     .menu a img{
+         width: 10%;
+         height: 10%;
+     
+         
+     }
+     .menu ul{
+         float: right;
+         display: flex;
+         list-style: none;
+         font-family: 'Roboto', sans-serif;
+         font-size: 20px ;
+         font-weight:bold ;
+         transform: translateY(-115px);
+         margin-right: 50px;
+        
+        
+     
+         
+         
+     }
+     .menu ul li {
+         text-decoration: none;
+         height: 10px;
+         margin: 20px 5px 15px ;
+         padding: 30px 0px 50px;
+     
+         
+         
+         
+         
+         
+     
+     
+     }
+     .menu ul li a{
+         text-decoration: none;
+         color: rgb(0, 0, 0);
+         margin: 20px;
+         padding: 10px;
+         width: 100%;
+     
+         
+         
+       
+     
+        
+        
+     }
+     .menu ul li a:hover{
+         color: #858585;
+         transform: scale(5);
+       
+     
+     }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
 
 
 
@@ -1757,7 +2108,7 @@ footer{
 
 
 
-@media(min-width:0px) and (max-width:1366px) {
+@media(min-width:0px) and (max-width:1800px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
@@ -2005,85 +2356,163 @@ header{
         transform:rotate(-45deg);
       }
       
-      .dropbtn {
-      
-       background: none;
-        color: rgb(0, 132, 255);
-        font-size: 20px;
-        border: none;
-        cursor: pointer;
-        font-weight:bold ;
-        margin:20px 20px 20px;
-      }
-      .dropbtn a{
-  
-
-        text-decoration: none;
-        color: rgb(0, 132, 255);
-      }
      
-      
-      
-      .dropdown {
-        position: relative;
-        display: inline-block;
-        padding-bottom:20px ;
-      }
-      
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        justify-content: center;
-        width: 200px;
-       
-       
-       
-      }
-      
-      .dropdown-content a {
-        color: black;
-        margin: 30px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        padding: 10px;
-        transform: translateX(-30px);
-    
-      
-      }
-      
-      
-      .dropdown-content a:hover {   
-          background-color: #000000;
-         text-align: center;
-         justify-content: center;
-         align-items: center;
-         transform: translateX(-60px);
-         width: 200px;
-      
-      }
-      
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-        text-align: center;
-         justify-content: center;
-         align-items: center;
-         position: absolute;
-         transform: translateX(-15px);
-        
-      
-      }
-      
-      
-      .dropdown:hover .dropbtn {
-        background-color: #ffffff;
-      }
+  .dropbtn {
   
+    background: none;
+     color: rgb(0, 132, 255);
+     font-size: 20px;
+     border: none;
+     cursor: pointer;
+     font-weight:bold ;
+     margin:50px 20px 20px;
+  
+   }
+   
+   .dropbtn a{
+   
+ 
+      text-decoration: none;
+      color: rgb(0, 132, 255);
+    }
+   
+   
+   .dropdown {
+     position: relative;
+     display: inline-block;
+   }
+   
+   
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     justify-content: center;
+    
+    
+   }
+   
+   .dropdown-content a {
+     color: black;
+     margin: 30px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+   
+   }
+   
+   
+   .dropdown-content a:hover {   
+       background-color: #000000;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-30px);
+     width: 100%;
+   
+   }
+   
+   
+   .dropdown:hover .dropdown-content {
+     display: block;
+     text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+     
+   
+   }
+   
+   
+   .dropdown:hover .dropbtn {
+     background-color: #ffffff;
+   }
+  
+      
+ #DG0{
+
+    color: #00C8FF;
+
+ }
+
+ #GD{
+
+    color: #00C8FF;
+ }
+ #DG2{
+
+    color: #00C8FF;
+ }
+ #DG3{
+
+    color: #FF7C00;
+ }
+ #DG5{
+
+    color: #FF7C00;
+ }
+ #DG6{
+
+    color: #FF7C00;
+ }
+ 
+ #DG7{
+
+    color: #B54EFF;
+ }
+ #DG8{
+    color: #B54EFF;
+
+ }
+ #DG10{
+
+    color: #FF21BF;
+ }
+ #DG11{
+
+    color: #FF21BF;
+ }
+ #DG12{
+
+    color: #FF21BF;
+ }
+ 
+ #DG13{
+
+    color: #a15100;
+ }
+ #DG13{
+
+    color: #a15100;
+ }
+ #DG14{
+
+    color: #a15100;
+ }
+ 
+ #DG15{
+
+    color: #a15100;
+ }
+ #DG16{
+    color: #00C8FF;
+ }
+ #DG18{
+    color: #FF7C00;
+ }
+ #web{
+
+    color: #FF7C00;
+ }
+ #headboxae1{
+
+    color: #B54EFF;
+
+
+
+ }
   #H{
   
     color: #ff00bf;
