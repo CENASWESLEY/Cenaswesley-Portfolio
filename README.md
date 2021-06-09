@@ -1,4 +1,4 @@
 # Cenaswesley-Portfolio
 
 2021
-Reponsive for only pc
+Reponsive for the only pc
