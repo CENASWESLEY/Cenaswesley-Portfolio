@@ -403,7 +403,7 @@ header{
 
 
 
-    transform: translateX(400px);
+    transform: translateX(500px);
     margin-top: 100px;
 
 
@@ -685,7 +685,7 @@ transform: translateY(-2700px);
 
 /*footer*/
 footer{
-   
+
     box-shadow: 0px 2px 12px rgb(0, 0, 0);
 }
 footer p{
